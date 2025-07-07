@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    background:linear-gradient(rgb(114, 114, 244),purple);
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    column-gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.first{
+    background-color: white;
+    height: 100%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.middle{
+    background-color: transparent;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.upper{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.lower{
+    background-color: transparent;
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.section{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.last{
+    background-color: transparent;
+    height: 100%;
+    width: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.top,.bottom{
+    background-color: white;
+    height: 42%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.middleone{
+    background-color: white;
+    height: 13%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+

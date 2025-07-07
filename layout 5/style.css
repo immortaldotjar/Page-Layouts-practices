@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    background:linear-gradient(rgb(114, 114, 244),purple);
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 30px;
+}
+
+.section{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: transparent;
+    display: flex;
+    column-gap: 30px;
+}
+
+.divide1{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.divide2{
+    height: 100%;
+    width: calc(100% / 3);
+    background-color: white;
+    border-radius: 10px;
+}
